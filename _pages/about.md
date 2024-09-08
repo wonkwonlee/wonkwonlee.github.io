@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-      111 Sylvan Ave.
-      South Building, L4
-      Englewood Cliffs, NJ 07650
+      <p>111 Sylvan Ave.</p>
+      <p>South Building, L4</p>
+      <p>Englewood Cliffs, NJ 07650</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
