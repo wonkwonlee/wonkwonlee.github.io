@@ -15,6 +15,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       111 Sylvan Ave.
+      South Building, L4
       Englewood Cliff, NJ 07650
   - align: left
     image: prof_pic.jpg
