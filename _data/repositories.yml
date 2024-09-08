@@ -1,14 +1,17 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - wonkwonlee
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - DataResponsibly/SynRD
+  - wonkwonlee/out-of-distribution-vision-model
+  - wonkwonlee/time-series-vision-model
+  - wonkwonlee/a2w-kma-big-data-contest
+  - wonkwonlee/als-recommender-system
+  - wonkwonlee/RepCRec
+  - wonkwonlee/likelion-k-digital-training-AI
+  - wonkwonlee/face-mask-yolov8
+  - wonkwonlee/dacon-ai-writing-style-classification
+  - wonkwonlee/neurons-and-neuronal-networks
+  
