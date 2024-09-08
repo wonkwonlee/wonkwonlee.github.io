@@ -5,8 +5,7 @@
       value: Wonkwon Lee
     - name: Email
       value: wonkwon.lee@nyu.edu
-    - name: GitHub
-      value: <a href="
+    # - name: Git
     - name: Languages
       value: Korean (Native), English (Fluent), Japanese (Business)
 

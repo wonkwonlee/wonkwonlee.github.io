@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>@LG CNS @NYU @UoM</a>. Trustworthy AI, Algorithmic Fairness, Interpretable AI
 
 profile:
   align: right
