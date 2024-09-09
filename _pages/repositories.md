@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: A brief showcase of my repositories. For more information, come visit my [repo](https://github.com/wonkwonlee)!
+description: A brief showcase of my repositories.
 nav: true
 nav_order: 4
 ---

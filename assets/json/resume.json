@@ -1,7 +1,8 @@
 {
   "basics": {
     "name": "Wonkwon Raymond Lee",
-    "label": "System Engineer",
+    "position": "System Engineer",
+    "affiliation": "LG CNS America",
     "email": "wonkwon.lee@nyu.edu",
     "phone": "(646) 469-7805",
     "location": {
@@ -177,7 +178,15 @@
       "date": "2021"
     }
   ],
-  "grants": [
+  "awards": [
+    {
+      "name": "SIGMOD Highlight Awards",
+      "date": "2024"
+    },
+    {
+      "name": "VLDB Best Experiment, Analysis, & Benchmark Paper Runner-ups",
+      "date": "2023"
+    },
     {
       "name": "NYU Wasserman Career Grant",
       "date": "2021"
