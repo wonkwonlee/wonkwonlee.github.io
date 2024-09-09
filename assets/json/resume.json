@@ -38,195 +38,161 @@
       "endDate": "2018-06",
       "honors": "Upper-Second Class Honors",
       "awards": ["International Mathematics Merit Scholarship"],
-      "courses": [
-        "Machine Learning",
-        "Convex Optimization",
-        "Linear Algebra",
-        "Graph Theory"
-      ]
+      "courses": ["Machine Learning", "Convex Optimization", "Linear Algebra", "Graph Theory"]
+    }
+  ],
+  "work": [
+    {
+      "name": "LG CNS America",
+      "position": "Network System Engineer",
+      "location": "Englewood Cliffs, NJ",
+      "startDate": "2024-04",
+      "summary": "Network system engineer with a focus on network infrastructure and automation."
+    },
+    {
+      "name": "PricewaterhouseCoopers",
+      "position": "Data Scientist Intern",
+      "location": "New York, NY",
+      "startDate": "2022-06",
+      "endDate": "2022-08",
+      "summary": "Implemented a BERT-based relation extraction model to classify semantic relationships between entities.",
+      "highlights": ["Deployed models to AWS cloud platforms", "Defined data annotation, ML pipelines, and testing strategies"]
+    },
+    {
+      "name": "Mozzign",
+      "position": "Network System Engineer",
+      "location": "New York, NY",
+      "startDate": "2021-06",
+      "endDate": "2021-08",
+      "summary": "Analyzed health insurance data using machine learning models such as regression and random forest."
+    },
+    {
+      "name": "Republic of Korea Air Force",
+      "position": "Staff Sergeant",
+      "location": "Seongnam, South Korea",
+      "startDate": "2018-12",
+      "endDate": "2020-10",
+      "summary": "Administered military intranet, server, and security work."
+    }
+  ],
+  "research": [
+    {
+      "institution": "New York University, Center for Responsible AI",
+      "position": "Graduate Research Assistant",
+      "startDate": "2022-09",
+      "endDate": "2023-05",
+      "summary": "Conducted research in Differentially Private synthetic data generation and contributed to a publication in PVLDB Vol. 16.",
+      "highlights": ["Best Paper Runner-Up Award at VLDB 2023", "Replicated ICPSR papers with public and privatized data"]
+    },
+    {
+      "institution": "New York University, McDevitt Lab",
+      "position": "Graduate Research Assistant",
+      "startDate": "2021-10",
+      "endDate": "2022-02",
+      "summary": "Performed diagnostic prediction modeling research using machine learning for data analysis in the Colgate project."
+    },
+    {
+      "institution": "University of Manchester",
+      "position": "Undergraduate Researcher",
+      "startDate": "2017-09",
+      "endDate": "2018-06",
+      "summary": "Implemented a Spiking Neural Network simulator and conducted simulations to analyze neuronal network behaviors.",
+      "highlights": ["Supervised by Dr. Eva Navarro Lopez", "Thesis selected as one of the Best Computer Science Project Papers in 2018"]
+    },
+    {
+      "institution": "Korea University, Wireless Intelligence at Network Edge Lab",
+      "position": "Undergraduate Research Intern",
+      "startDate": "2015-06",
+      "endDate": "2015-08",
+      "summary": "Optimized the real-time simulation of networked drone fleets using MATLAB."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy",
+      "publisher": "ACM SIGMOD Record",
+      "releaseDate": "2024-01",
+      "summary": "Co-authored publication on reproducibility metrics for differential privacy.",
+      "url": "https://doi.org/10.1145/123456789"
+    },
+    {
+      "name": "Out of distribution performance of state of art vision model",
+      "publisher": "arXiv",
+      "releaseDate": "2023-01",
+      "summary": "Co-authored research on out-of-distribution robustness of vision models.",
+      "url": "https://arxiv.org/abs/2301.10750"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "Java", "C/C++", "SQL", "R", "JavaScript"]
+    },
+    {
+      "name": "Frameworks & Tools",
+      "keywords": ["PyTorch", "TensorFlow", "Netmiko", "AWS", "MATLAB"]
+    },
+    {
+      "name": "Networking",
+      "keywords": ["Cisco Firepower", "Bluecoat Proxy", "PRTG", "Cisco Expressway"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Native"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Proficient"
+    }
+  ],
+  "references": [
+    {
+      "name": "Julia Stoyanovich",
+      "position": "Associate Professor, Computer Science",
+      "institution": "New York University",
+      "email": "stoyanovich@nyu.edu"
+    },
+    {
+      "name": "Rob Fergus",
+      "position": "Professor, Computer Science",
+      "institution": "New York University",
+      "email": "fergus@cs.nyu.edu"
+    },
+    {
+      "name": "Martin Lotz",
+      "position": "Associate Professor, Mathematics",
+      "institution": "University of Warwick",
+      "email": "martin.lotz@warwick.ac.uk"
+    }
+  ],
+  "honors": [
+    {
+      "title": "SIGMOD Highlight Awards",
+      "date": "2024"
+    },
+    {
+      "title": "VLDB Best Experiment, Analysis, & Benchmark Paper Runner-ups",
+      "date": "2023"
+    },
+    {
+      "title": "Wasserman Career Grant",
+      "date": "2021"
+    }
+  ],
+  "grants": [
+    {
+      "name": "NYU Wasserman Career Grant",
+      "date": "2021"
+    },
+    {
+      "name": "University of Manchester International Mathematics Merit Scholarship",
+      "date": "2015-2017"
     }
   ]
 }
-  // ],
-  // "work": [
-  //   {
-  //     "name": "LG CNS America",
-  //     "position": "Network System Engineer",
-  //     "location": "Englewood Cliffs, NJ",
-  //     "startDate": "2024-04",
-  //     "summary": "Network system engineer with a focus on network infrastructure and automation."
-  //   },
-  //   {
-  //     "name": "PricewaterhouseCoopers",
-  //     "position": "Data Scientist Intern",
-  //     "location": "New York, NY",
-  //     "startDate": "2022-06",
-  //     "endDate": "2022-08",
-  //     "summary": "Implemented a BERT-based relation extraction model to classify semantic relationships between entities.",
-  //     "highlights": [
-  //       "Deployed models to AWS cloud platforms",
-  //       "Defined data annotation, ML pipelines, and testing strategies"
-  //     ]
-  //   },
-  //   {
-  //     "name": "Mozzign",
-  //     "position": "Network System Engineer",
-  //     "location": "New York, NY",
-  //     "startDate": "2021-06",
-  //     "endDate": "2021-08",
-  //     "summary": "Analyzed health insurance data using machine learning models such as regression and random forest."
-  //   },
-  //   {
-  //     "name": "Republic of Korea Air Force",
-  //     "position": "Staff Sergeant",
-  //     "location": "Seongnam, South Korea",
-  //     "startDate": "2018-12",
-  //     "endDate": "2020-10",
-  //     "summary": "Administered military intranet, server, and security work."
-  //   }
-  // ],
-  // "research": [
-  //   {
-  //     "institution": "New York University, Center for Responsible AI",
-  //     "position": "Graduate Research Assistant",
-  //     "startDate": "2022-09",
-  //     "endDate": "2023-05",
-  //     "summary": "Conducted research in Differentially Private synthetic data generation and contributed to a publication in PVLDB Vol. 16.",
-  //     "highlights": [
-  //       "Best Paper Runner-Up Award at VLDB 2023",
-  //       "Replicated ICPSR papers with public and privatized data"
-  //     ]
-  //   },
-  //   {
-  //     "institution": "New York University, McDevitt Lab",
-  //     "position": "Graduate Research Assistant",
-  //     "startDate": "2021-10",
-  //     "endDate": "2022-02",
-  //     "summary": "Performed diagnostic prediction modeling research using machine learning for data analysis in the Colgate project."
-  //   },
-  //   {
-  //     "institution": "University of Manchester",
-  //     "position": "Undergraduate Researcher",
-  //     "startDate": "2017-09",
-  //     "endDate": "2018-06",
-  //     "summary": "Implemented a Spiking Neural Network simulator and conducted simulations to analyze neuronal network behaviors.",
-  //     "highlights": [
-  //       "Supervised by Dr. Eva Navarro Lopez",
-  //       "Thesis selected as one of the Best Computer Science Project Papers in 2018"
-  //     ]
-  //   },
-  //   {
-  //     "institution": "Korea University, Wireless Intelligence at Network Edge Lab",
-  //     "position": "Undergraduate Research Intern",
-  //     "startDate": "2015-06",
-  //     "endDate": "2015-08",
-  //     "summary": "Optimized the real-time simulation of networked drone fleets using MATLAB."
-  //   }
-  // ],
-  // "publications": [
-  //   {
-  //     "name": "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy",
-  //     "publisher": "ACM SIGMOD Record",
-  //     "releaseDate": "2024-01",
-  //     "summary": "Co-authored publication on reproducibility metrics for differential privacy.",
-  //     "url": "https://doi.org/10.1145/123456789"
-  //   },
-  //   {
-  //     "name": "Out of distribution performance of state of art vision model",
-  //     "publisher": "arXiv",
-  //     "releaseDate": "2023-01",
-  //     "summary": "Co-authored research on out-of-distribution robustness of vision models.",
-  //     "url": "https://arxiv.org/abs/2301.10750"
-  //   }
-  // ],
-  // "skills": [
-  //   {
-  //     "name": "Programming Languages",
-  //     "keywords": [
-  //       "Python",
-  //       "Java",
-  //       "C/C++",
-  //       "SQL",
-  //       "R",
-  //       "JavaScript"
-  //     ]
-  //   },
-  //   {
-  //     "name": "Frameworks & Tools",
-  //     "keywords": [
-  //       "PyTorch",
-  //       "TensorFlow",
-  //       "Netmiko",
-  //       "AWS",
-  //       "MATLAB"
-  //     ]
-  //   },
-  //   {
-  //     "name": "Networking",
-  //     "keywords": [
-  //       "Cisco Firepower",
-  //       "Bluecoat Proxy",
-  //       "PRTG",
-  //       "Cisco Expressway"
-  //     ]
-  //   }
-  // ],
-  // "languages": [
-  //   {
-  //     "language": "English",
-  //     "fluency": "Fluent"
-  //   },
-  //   {
-  //     "language": "Korean",
-  //     "fluency": "Native"
-  //   },
-  //   {
-  //     "language": "Japanese",
-  //     "fluency": "Proficient"
-  //   }
-  // ],
-  // "references": [
-  //   {
-  //     "name": "Julia Stoyanovich",
-  //     "position": "Associate Professor, Computer Science",
-  //     "institution": "New York University",
-  //     "email": "stoyanovich@nyu.edu"
-  //   },
-  //   {
-  //     "name": "Rob Fergus",
-  //     "position": "Professor, Computer Science",
-  //     "institution": "New York University",
-  //     "email": "fergus@cs.nyu.edu"
-  //   },
-  //   {
-  //     "name": "Martin Lotz",
-  //     "position": "Associate Professor, Mathematics",
-  //     "institution": "University of Warwick",
-  //     "email": "martin.lotz@warwick.ac.uk"
-  //   }
-  // ],
-  // "honors": [
-  //   {
-  //     "title": "SIGMOD Highlight Awards",
-  //     "date": "2024"
-  //   },
-  //   {
-  //     "title": "VLDB Best Experiment, Analysis, & Benchmark Paper Runner-ups",
-  //     "date": "2023"
-  //   },
-  //   {
-  //     "title": "Wasserman Career Grant",
-  //     "date": "2021"
-  //   }
-  // ],
-  // "grants": [
-  //   {
-  //     "name": "NYU Wasserman Career Grant",
-  //     "date": "2021"
-  //   },
-  //   {
-  //     "name": "University of Manchester International Mathematics Merit Scholarship",
-  //     "date": "2015-2017"
-  //   }
-  // ]
-// }
