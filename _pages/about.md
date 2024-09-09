@@ -6,7 +6,7 @@ subtitle: <a href='#'>@LG CNS @NYU @UoM</a>. Trustworthy AI, Algorithmic Fairnes
 
 profile:
   align: right
-  image: prof_pic
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>111 Sylvan Ave.</p>
