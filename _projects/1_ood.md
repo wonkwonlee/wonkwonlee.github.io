@@ -32,45 +32,66 @@ We evaluated these models using benchmark OOD datasets, such as ImageNet-A, Imag
 - **Hybrid models**: ConViT, ConvNext
 - **Other models**: MLP-Mixer, RegNet, Sequencer
 
-### Top 15 Models - Performance on ImageNet, ImageNet-A, and ImageNet-O
+### Top 5 Convolution-Based Models
+| **Architecture**    | **ImageNet** | **ImageNet -A** | **ImageNet -O** | **ImageNet -R** | **Stylized-ImageNet** | **ImageNet -Sketch** |
+|---------------------|--------------|-----------------|-----------------|-----------------|----------------------|----------------------|
+| ConvNext            | 87.8         | 35.79           | 2.18            | 51.71           | 19.24                | 38.22                |
+| EfficientNetV2      | 87.3         | 22.31           | 2.21            | 52.97           | 23.3                 | 40.33                |
+| ResNeSt             | 83.9         | 5.47            | 2.2             | 37.77           | 7.39                 | 25.28                |
+| ResNet              | 79.29        | 1.88            | 2.23            | 28.93           | 3.59                 | 16.84                |
+| Xception            | 79.88        | 3.53            | 2.28            | 33.52           | 9.33                 | 18.26                |
 
-| **Architecture**    | **ImageNet** | **ImageNet -A** | **ImageNet -O** |
-|---------------------|--------------|-----------------|-----------------|
-| ConvNext            | 87.8         | 35.79           | 2.18            |
-| CaiT                | 86.5         | 34.4            | 2.2             |
-| CrossViT            | 81.5         | 31.8            | 2.2             |
-| DeiT3               | 83.1         | 40.12           | 2.22            |
-| EfficientNetV2      | 87.3         | 22.31           | 2.21            |
-| MViTv2              | 88.8         | 43.09           | 2.24            |
-| Swin                | 87.3         | 39.41           | 2.19            |
-| ResNeSt             | 83.9         | 5.47            | 2.2             |
-| ViT                 | 85.17        | 11.25           | 2.61            |
-| VOLO                | 87.1         | 41.03           | 2.23            |
-| RegNet              | 80.25        | 26.48           | 2.17            |
-| ResNet              | 79.29        | 1.88            | 2.23            |
-| Xception            | 79.88        | 3.53            | 2.28            |
-| MLPMixer            | 76.44        | 5.79            | 2.25            |
-| Sequencer           | 84.6         | 35.36           | 2.18            |
+#### Convolution-Based Models
 
-### Performance on ImageNet-R, Stylized-ImageNet, and ImageNet-Sketch
+Convolution-based models, such as ConvNets, process visual data through layers of convolutions, pooling, and non-linear activations. They excel at capturing local spatial hierarchies in images, making them highly effective for tasks like object recognition and classification. Over time, innovations like depthwise separable convolutions and residual connections have increased their efficiency and depth, leading to architectures like **ConvNext** and **EfficientNetV2**.
 
-| **Architecture**    | **ImageNet -R** | **Stylized-ImageNet** | **ImageNet -Sketch** |
-|---------------------|-----------------|----------------------|----------------------|
-| ConvNext            | 51.71           | 19.24                | 38.22                |
-| CaiT                | 49.95           | 19.48                | 36.03                |
-| CrossViT            | 47.1            | 18.51                | 33.49                |
-| DeiT3               | 53.63           | 25.45                | 40.06                |
-| EfficientNetV2      | 52.97           | 23.3                 | 40.33                |
-| MViTv2              | 51.89           | 19.16                | 38.11                |
-| Swin                | 48.64           | 18.36                | 34.37                |
-| ResNeSt             | 37.77           | 7.39                 | 25.28                |
-| ViT                 | 38.42           | 14.37                | 17.36                |
-| VOLO                | 48.53           | 17.74                | 36.11                |
-| RegNet              | 44.74           | 11.88                | 32.93                |
-| ResNet              | 28.93           | 3.59                 | 16.84                |
-| Xception            | 33.52           | 9.33                 | 18.26                |
-| MLPMixer            | 32.75           | 10.04                | 19.32                |
-| Sequencer           | 48.56           | 16.74                | 35.87                |
+
+### Top 5 Attention-Based Models
+| **Architecture**    | **ImageNet** | **ImageNet -A** | **ImageNet -O** | **ImageNet -R** | **Stylized-ImageNet** | **ImageNet -Sketch** |
+|---------------------|--------------|-----------------|-----------------|-----------------|----------------------|----------------------|
+| CaiT                | 86.5         | 34.4            | 2.2             | 49.95           | 19.48                | 36.03                |
+| CrossViT            | 81.5         | 31.8            | 2.2             | 47.1            | 18.51                | 33.49                |
+| DeiT3               | 83.1         | 40.12           | 2.22            | 53.63           | 25.45                | 40.06                |
+| Swin                | 87.3         | 39.41           | 2.19            | 48.64           | 18.36                | 34.37                |
+| VOLO                | 87.1         | 41.03           | 2.23            | 48.53           | 17.74                | 36.11                |
+
+#### Attention-Based Models
+
+Attention-based models, like Vision Transformers (ViT), capture long-range dependencies within images by applying self-attention mechanisms. Instead of relying on convolutional operations, these models divide images into patches and use multi-head attention to learn relationships between different parts of the image. Attention models excel at capturing global context, achieving state-of-the-art results in tasks requiring holistic image understanding, as seen in models like **Swin** and **DeiT3**.
+
+### Top 5 Hybrid (Convolution + Attention) Models
+| **Architecture**    | **ImageNet** | **ImageNet -A** | **ImageNet -O** | **ImageNet -R** | **Stylized-ImageNet** | **ImageNet -Sketch** |
+|---------------------|--------------|-----------------|-----------------|-----------------|----------------------|----------------------|
+| ConViT              | 81.3         | 29.69           | 2.21            | 48.79           | 19.81                | 35.53                |
+| EdgeNeXt            | 71.2         | 21.83           | 2.23            | 51.04           | 16.26                | 37.13                |
+| LeViT               | 80.0         | 11.51           | 2.22            | 40.28           | 15.59                | 26.39                |
+| RegNet              | 80.25        | 26.48           | 2.17            | 44.74           | 11.88                | 32.93                |
+| Sequencer           | 84.6         | 35.36           | 2.18            | 48.56           | 16.74                | 35.87                |
+
+#### Hybrid Models (Convolution + Attention)
+
+Hybrid models combine the strengths of both convolution and attention mechanisms. These architectures use convolution layers to extract low-level features and attention mechanisms to capture global dependencies. By fusing these two approaches, hybrid models like **ConViT** and **LeViT** balance local feature extraction with global context understanding, achieving both efficiency and accuracy in visual tasks.
+
+### Other Architectures
+| **Architecture**    | **ImageNet** | **ImageNet -A** | **ImageNet -O** | **ImageNet -R** | **Stylized-ImageNet** | **ImageNet -Sketch** |
+|---------------------|--------------|-----------------|-----------------|-----------------|----------------------|----------------------|
+| MLPMixer            | 76.44        | 5.79            | 2.25            | 32.75           | 10.04                | 19.32                |
+| MobileNetV3         | 75.77        | 4.59            | 2.2             | 35.11           | 10.85                | 22.95                |
+| RegNet              | 80.25        | 26.48           | 2.17            | 44.74           | 11.88                | 32.93                |
+| Sequencer           | 84.6         | 35.36           | 2.18            | 48.56           | 16.74                | 35.87                |
+
+#### Explanation of the Top 5 Other Architectures
+1. **MLPMixer**: 
+   - Uses MLPs instead of convolutions or self-attention for vision tasks by mixing spatial and channel information. Efficient for large datasets.
+
+2. **MobileNetV3**:
+   - Lightweight model designed for mobile devices, using depthwise separable convolutions and neural architecture search (NAS) to optimize performance with low computational cost.
+
+3. **RegNet**:
+   - Scalable model family balancing depth and width, designed for efficient computation across different resource constraints, performing well on large vision tasks.
+
+4. **Sequencer**:
+   - A vision model that adapts sequence modeling techniques from NLP, processing images as sequences to capture long-range dependencies.
 
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
