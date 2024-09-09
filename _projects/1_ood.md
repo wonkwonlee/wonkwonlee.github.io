@@ -5,6 +5,7 @@ description: Research project comparing the robustness of 58 computer vision mod
 img: assets/img/ood/ood.png
 related_publications: true
 ---
+{% reference rahman2023out %}
 
 This project provides a thorough out-of-distribution (OOD) robustness comparison across 58 state-of-the-art computer vision models. These include models based on vision transformers, convolutional networks, hybrid mechanisms, and more.
 
@@ -100,5 +101,3 @@ Hybrid models combine the strengths of both convolution and attention mechanisms
 
 4. **Sequencer**:
    - A vision model that adapts sequence modeling techniques from NLP, processing images as sequences to capture long-range dependencies.
-
- {% reference rahman2023out %}
