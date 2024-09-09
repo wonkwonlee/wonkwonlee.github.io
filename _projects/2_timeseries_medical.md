@@ -2,9 +2,7 @@
 layout: page
 title: Time-series Medical Image Classification
 description: Image Classification Model for Temporal Disease Progression of Chest X-ray dataset
-img: assets/img/medical-1.jpg
-# importance: 1
-# category: work
+img: assets/img/timeseries_medical/medical-1.jpg
 related_publications: true
 ---
 
@@ -14,13 +12,13 @@ Disease progression modeling (DPM) uses mathematical and scientific principles t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/medical-1.jpg" title="Figure 1: Architecture of Model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/timeseries_medical/medical-1.jpg" title="Figure 1: Architecture of Model" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/medical-2.jpg" title="Figure 2: Data Sparsity in Time-series" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/timeseries_medical/medical-2.jpg" title="Figure 2: Data Sparsity in Time-series" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/medical-3.jpg" title="Figure 2: Data Sparsity in Time-series" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/timeseries_medical/medical-3.jpg" title="Figure 2: Data Sparsity in Time-series" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

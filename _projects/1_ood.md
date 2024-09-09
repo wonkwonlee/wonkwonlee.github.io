@@ -2,9 +2,7 @@
 layout: page
 title: Out-of-distribution Robustness Evaluation of State-of-the-art Vision Models
 description: Research project comparing the robustness of 58 computer vision models
-# img: assets/img/project-vision.jpg
-# importance: 1
-# category: research
+img: assets/img/ood/ood.png
 related_publications: true
 ---
 
@@ -102,31 +100,3 @@ Hybrid models combine the strengths of both convolution and attention mechanisms
 
 4. **Sequencer**:
    - A vision model that adapts sequence modeling techniques from NLP, processing images as sequences to capture long-range dependencies.
-
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vision-1.jpg" title="Example Model Performance" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vision-2.jpg" title="Benchmark Comparisons" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vision-3.jpg" title="Visual Model Performance" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-    Performance comparison of various models on OOD datasets.
-</div>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/vision-summary.jpg" title="OOD Robustness Summary" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/vision-performance.jpg" title="Performance Metrics" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Summary of the overall robustness performance across different models.
-</div> -->
