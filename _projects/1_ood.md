@@ -2,7 +2,7 @@
 layout: page
 title: Out-of-distribution Robustness Evaluation of State-of-the-art Vision Models
 description: Research project comparing the robustness of 58 computer vision models
-img: assets/img/project-vision.jpg
+# img: assets/img/project-vision.jpg
 importance: 1
 category: research
 related_publications: true
