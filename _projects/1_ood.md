@@ -130,5 +130,3 @@ Hybrid models combine the strengths of both convolution and attention mechanisms
 <div class="caption">
     Summary of the overall robustness performance across different models.
 </div> -->
-
-To download the full report, you can access the attached [PDF](assets/reports/out-of-distribution-vision-models.pdf).
