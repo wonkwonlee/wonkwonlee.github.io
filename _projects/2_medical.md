@@ -31,35 +31,35 @@ The following tables summarize the performance of different feature extraction m
 ### Table 1: Performance of Models on Disease Progression Task
 
 | **Model/Feature Extractor** | **Edema** | **Consolidation** | **Pleural Effusion** | **Pneumothorax** | **Pneumonia** | **Average Accuracy** |
-|----------------------------|-----------|-------------------|----------------------|------------------|--------------|---------------------|
-| DenseNet-RSNA               | 45.28%    | 45.0%             | 60.98%               | 50.0%            | 61.70%       | 53.70%              |
-| DenseNet-MIMIC-CH           | 45.28%    | 42.5%             | 57.31%               | 54.76%           | 63.83%       | 53.40%              |
-| DenseNet-CheX               | 47.17%    | 50.0%             | 62.20%               | 54.76%           | 63.83%       | 56.40%              |
-| Logistic Regression         | 44.08%    | 51.00%            | 39.02%               | 37.21%           | 56.13%       | 45.49%              |
+| --------------------------- | --------- | ----------------- | -------------------- | ---------------- | ------------- | -------------------- |
+| DenseNet-RSNA               | 45.28%    | 45.0%             | 60.98%               | 50.0%            | 61.70%        | 53.70%               |
+| DenseNet-MIMIC-CH           | 45.28%    | 42.5%             | 57.31%               | 54.76%           | 63.83%        | 53.40%               |
+| DenseNet-CheX               | 47.17%    | 50.0%             | 62.20%               | 54.76%           | 63.83%        | 56.40%               |
+| Logistic Regression         | 44.08%    | 51.00%            | 39.02%               | 37.21%           | 56.13%        | 45.49%               |
 
 ### Table 2: Prediction on Flipped Input (Logistic Regression Model)
 
-| **Original Prediction**  | **Stable** | **Improving** | **Worsening** | **Prediction on Flipped Input** |
-|--------------------------|------------|---------------|---------------|---------------------------------|
-| Stable                   | 54         | 45            | 0             | Stable                          |
-| Improving                | 21         | 92            | 7             | Improving                       |
-| Worsening                | 4          | 32            | 3             | Worsening                       |
+| **Original Prediction** | **Stable** | **Improving** | **Worsening** | **Prediction on Flipped Input** |
+| ----------------------- | ---------- | ------------- | ------------- | ------------------------------- |
+| Stable                  | 54         | 45            | 0             | Stable                          |
+| Improving               | 21         | 92            | 7             | Improving                       |
+| Worsening               | 4          | 32            | 3             | Worsening                       |
 
 ### Table 3: Prediction on Flipped Input (Model 2)
 
-| **Original Prediction**  | **Stable** | **Improving** | **Worsening** | **Prediction on Flipped Input** |
-|--------------------------|------------|---------------|---------------|---------------------------------|
-| Stable                   | 96         | 33            | 1             | Stable                          |
-| Improving                | 39         | 58            | 22            | Improving                       |
-| Worsening                | 1          | 13            | 1             | Worsening                       |
+| **Original Prediction** | **Stable** | **Improving** | **Worsening** | **Prediction on Flipped Input** |
+| ----------------------- | ---------- | ------------- | ------------- | ------------------------------- |
+| Stable                  | 96         | 33            | 1             | Stable                          |
+| Improving               | 39         | 58            | 22            | Improving                       |
+| Worsening               | 1          | 13            | 1             | Worsening                       |
 
 ### Table 4: Prediction on Flipped Input (Model 3)
 
-| **Original Prediction**  | **Stable** | **Improving** | **Worsening** | **Prediction on Flipped Input** |
-|--------------------------|------------|---------------|---------------|---------------------------------|
-| Stable                   | 48         | 18            | 10            | Stable                          |
-| Improving                | 12         | 41            | 29            | Improving                       |
-| Worsening                | 9          | 21            | 76            | Worsening                       |
+| **Original Prediction** | **Stable** | **Improving** | **Worsening** | **Prediction on Flipped Input** |
+| ----------------------- | ---------- | ------------- | ------------- | ------------------------------- |
+| Stable                  | 48         | 18            | 10            | Stable                          |
+| Improving               | 12         | 41            | 29            | Improving                       |
+| Worsening               | 9          | 21            | 76            | Worsening                       |
 
 ## Future Work
 

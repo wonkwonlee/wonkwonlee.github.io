@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>@LG CNS @NYU @UoM</a>. Trustworthy AI, Algorithmic Fairness, Interpretable AI
+subtitle: <a href='#'>@LG CNS @NYU</a>. Trustworthy AI, Algorithmic Fairness, Interpretable AI
 
 profile:
   align: right
