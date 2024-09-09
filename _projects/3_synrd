@@ -3,7 +3,7 @@ layout: page
 title: Differentially Private Synthetic Data Research
 description: Synthetic Dataset Feasiblity Study
 # img: assets/img/ood/ood.png
-related_publications: true
+related_publications: false
 ---
 
 This project provides a thorough out-of-distribution (OOD) robustness comparison across 58 state-of-the-art computer vision models. These include models based on vision transformers, convolutional networks, hybrid mechanisms, and more.

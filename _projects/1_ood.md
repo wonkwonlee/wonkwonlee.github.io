@@ -100,3 +100,5 @@ Hybrid models combine the strengths of both convolution and attention mechanisms
 
 4. **Sequencer**:
    - A vision model that adapts sequence modeling techniques from NLP, processing images as sequences to capture long-range dependencies.
+
+ {% reference rahman2023out %}

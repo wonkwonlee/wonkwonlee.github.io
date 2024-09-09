@@ -135,11 +135,11 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["Python", "Java", "C/C++", "SQL", "R", "JavaScript"]
+      "keywords": ["Python", "Java", "C/C++", "SQL", "R", "JavaScript", "MATLAB"]
     },
     {
       "name": "Frameworks & Tools",
-      "keywords": ["PyTorch", "TensorFlow", "Netmiko", "AWS", "MATLAB"]
+      "keywords": ["PyTorch", "TensorFlow", "Netmiko", "AWS"]
     },
     {
       "name": "Networking",
