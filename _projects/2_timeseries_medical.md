@@ -9,6 +9,7 @@ related_publications: true
 ## Introduction
 
 Disease progression modeling (DPM) uses mathematical and scientific principles to describe the quantitative progression of a disease over time. One such task is to predict the three states of disease progression (improving, stable, or worsening) based on current and past chest X-ray images. This project fine-tunes and evaluates the pre-trained Torch X-ray Vision model for this temporal image classification task.
+The code is available on [GitHub](https://github.com/wonkwonlee/time-series-vision-model).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
