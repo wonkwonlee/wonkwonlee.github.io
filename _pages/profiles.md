@@ -16,7 +16,7 @@ profiles:
     more_info: >
       <p>111 Sylvan Ave.</p>
       <p>South Building, L4</p>
-      <p>Englewood Cliffs, NJ 07650</p>
+      <p>Englewood Cliffs, NJ 07632</p>
   - align: left
     image: prof_pic.jpg
     content: about_einstein.md
