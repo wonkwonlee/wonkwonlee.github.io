@@ -98,12 +98,12 @@ research:
     summary: Participated in a drone simulation project under Professor Hwangnam Kim, implementing real-time optimization using MATLAB.
 
 publications:
-  - name: Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy
+  - name: "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy"
     publisher: ACM SIGMOD Record
     releaseDate: 2024-01
     summary: Co-authored publication on reproducibility metrics for differential privacy.
     url: https://doi.org/10.1145/123456789
-  - name: Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy
+  - name: "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy"
     publisher: Proceedings of the VLDB Endowment
     releaseDate: 2023-01
     summary: Co-authored research on out-of-distribution robustness of vision models.
