@@ -1,13 +1,12 @@
 ---
 layout: page
-title: "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy"
-description: "A benchmark and evaluation for reproducibility in differential privacy with state-of-the-art DP synthesizers."
-img: assets/img/epistemic-parity.jpg
+title: Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy
+description: A benchmark and evaluation for reproducibility in differential privacy with state-of-the-art DP synthesizers.
+img: assets/img/synrd/synrd-figure1.pdf
 importance: 1
 category: research
 related_publications: true
 ---
-<!-- To-DO: add figures -->
 
 ## Introduction
 
@@ -17,33 +16,37 @@ This methodology aims to shift the focus of DP mechanisms toward preserving util
 
 ## Methodology
 
-We selected a benchmark of peer-reviewed sociology papers from the ICPSR repository, reproducing empirical findings on public datasets. We then generated DP synthetic datasets using five state-of-the-art DP synthesizers (MST, PrivBayes, PATECTGAN, AIM, and PrivMRF), and re-ran the experiments to compare the results with the original findings.
+### 1. Benchmark Creation & Dataset Selection
 
-The benchmark consists of papers that span a variety of data and methodologies, and the primary evaluation metric is **epistemic parity**, which measures the reproducibility of findings on synthetic data compared to original data.
+We created a benchmark using a diverse selection of peer-reviewed papers from public repositories like **ICPSR**. These papers span various domains, including sociology and other social sciences, where privacy concerns are paramount. Each paper was chosen based on the availability of the dataset and the potential sensitivity of the information involved, making them ideal candidates for applying differential privacy mechanisms.
+
+The datasets were processed using five state-of-the-art DP synthesizers: **MST**, **PrivBayes**, **PATECTGAN**, **AIM**, and **PrivMRF**. These synthesizers were applied with various privacy budgets (`ε`) to generate synthetic versions of the original data, preserving privacy while attempting to retain utility.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="<Figure 1: A Visual Finding from Fairman et al. (2020)>" title="Figure 1: A Visual Finding from Fairman et al. (2020)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/synrd/synrd-figure2.png" title="Figure 2: Workflow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-## Results
+### 2. Evaluation via Epistemic Parity
+
+We introduce **epistemic parity** as a new metric to measure the reproducibility of findings when using differentially private synthetic data. This metric evaluates how well the results obtained from synthetic data match those from the original datasets. 
+
+For each benchmark paper, we reran the original analyses using both the real and synthetic data. We then compared key metrics, such as model accuracy, effect sizes, or statistical significance, between the original and synthetic datasets. This comparison allows us to assess whether the empirical conclusions drawn from real data hold true when using synthetic data, providing a tangible measure of the utility of DP mechanisms.
+
+### Results
 
 The results demonstrate that state-of-the-art DP synthesizers are able to achieve high epistemic parity in many cases, though some papers presented challenges due to high-dimensional data and specific findings.
 
-### Table 1: Synthesizer Performance on Benchmark Papers
-
-| **Synthesizer** | **Parity (ε = e²)** | **Computational Feasibility** |
-|----------------|----------------------|------------------------------|
-| MST            | High                 | Efficient                    |
-| PrivBayes      | High                 | Moderate                     |
-| AIM            | Moderate             | Efficient                    |
-| PATECTGAN      | Moderate             | High (GPU needed)            |
-| PrivMRF        | Low                  | Very High (GPU needed)       |
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/synrd/synrd-figure2.png" title="Figure 1: A Visual Finding from Fairman et al. (2020)" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="<Figure 3: Epistemic Parity for Competitive Mechanisms>" title="Figure 3: Epistemic Parity for Competitive Mechanisms" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/synrd/synrd-figure3.png" title="Figure 3: Epistemic Parity for Competitive Mechanisms" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -54,7 +57,7 @@ The results demonstrate that state-of-the-art DP synthesizers are able to achiev
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="<Figure 4: Average Epistemic Parity Across Papers>" title="Figure 4: Average Epistemic Parity Across Papers" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/synrd/synrd-figure4.png" title="Figure 4: Average Epistemic Parity Across Papers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
