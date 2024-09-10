@@ -4,6 +4,7 @@ title: Time-series Medical Image Classification
 description: Image Classification Model for Temporal Disease Progression of Chest X-ray dataset
 img: assets/img/timeseries_medical/timeseries_medical-1.png
 related_publications: true
+importance: 3
 ---
 
 ## Introduction
