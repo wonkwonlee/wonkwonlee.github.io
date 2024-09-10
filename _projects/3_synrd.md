@@ -2,7 +2,7 @@
 layout: page
 title: Differentially Private Synthetic Data Research
 description: Synthetic Dataset Feasiblity Study
-# img: assets/img/ood/ood.png
+img: assets/img/ood/ood.png
 related_publications: false
 importance: 5
 ---
