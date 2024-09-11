@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy
+title: "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy"
 description: A benchmark and evaluation for reproducibility in differential privacy with state-of-the-art DP synthesizers.
-img: assets/img/synrd/synrd-figure1.pdf
+img: assets/img/synrd/synrd-figure1.png
 importance: 1
 category: research
 related_publications: true

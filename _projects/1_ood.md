@@ -2,9 +2,10 @@
 layout: page
 title: Out-of-distribution Robustness Evaluation of State-of-the-art Vision Models
 description: Research project comparing the robustness of 58 computer vision models
-img: assets/img/ood/ood.png
+img: assets/img/ood/ood.jpg
 related_publications: true
-importance: 3
+category: research
+importance: 2
 ---
 This project provides a thorough out-of-distribution (OOD) robustness comparison across 58 state-of-the-art computer vision models. These include models based on vision transformers, convolutional networks, hybrid mechanisms, and more.
 

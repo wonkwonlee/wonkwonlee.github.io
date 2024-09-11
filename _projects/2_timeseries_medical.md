@@ -4,6 +4,7 @@ title: Time-series Medical Image Classification
 description: Image Classification Model for Temporal Disease Progression of Chest X-ray dataset
 img: assets/img/timeseries_medical/timeseries_medical-1.png
 related_publications: true
+category: research
 importance: 3
 ---
 
@@ -14,13 +15,13 @@ The code is available on [GitHub](https://github.com/wonkwonlee/time-series-visi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/timeseries_medical/timeseries_medical-1.jpg" title="Figure 1: Architecture of Model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/timeseries_medical/timeseries_medical-1.png" title="Figure 1: Architecture of Model" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/timeseries_medical/timeseries_medical-2.jpg" title="Figure 2: Data Sparsity in Time-series" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/timeseries_medical/timeseries_medical-2.png" title="Figure 2: Data Sparsity in Time-series" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/timeseries_medical/timeseries_medical-3.jpg" title="Figure 2: Data Sparsity in Time-series" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/timeseries_medical/timeseries_medical-3.png" title="Figure 3: Distribution of Disease Dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
