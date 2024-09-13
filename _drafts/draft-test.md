@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Test draft post
-date: 
+date:
 description: an example of a blog post with some math
 tags: formatting math
 categories: sample-posts

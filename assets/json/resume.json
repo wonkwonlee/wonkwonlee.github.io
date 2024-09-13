@@ -38,12 +38,7 @@
       "studyType": "B.S.",
       "area": "Computer Science and Mathematics",
       "endDate": "2018-06",
-      "courses": [
-        "Machine Learning",
-        "Convex Optimization",
-        "Linear Algebra",
-        "Graph Theory"
-      ]
+      "courses": ["Machine Learning", "Convex Optimization", "Linear Algebra", "Graph Theory"]
     }
   ],
   "work": [
@@ -61,9 +56,7 @@
       "startDate": "2022-06",
       "endDate": "2022-08",
       "summary": "Implemented a BERT-based relation extraction model fine-tuned on the TACRED dataset using PyTorch, and deployed models to AWS cloud platforms.",
-      "highlights": [
-        "Defined data annotation, machine learning pipelines, and testing strategy"
-      ]
+      "highlights": ["Defined data annotation, machine learning pipelines, and testing strategy"]
     },
     {
       "name": "New York University, Center for Responsible AI",
@@ -72,10 +65,7 @@
       "startDate": "2022-09",
       "endDate": "2023-05",
       "summary": "Conducted research in Differentially Private synthetic data generation under Professor Julia Stoyanovich and contributed to a publication in PVLDB Vol. 16.",
-      "highlights": [
-        "Best Paper Runner-Up Award at VLDB 2023",
-        "Replicated ICPSR papers with public and privatized data"
-      ]
+      "highlights": ["Best Paper Runner-Up Award at VLDB 2023", "Replicated ICPSR papers with public and privatized data"]
     },
     {
       "name": "New York University, McDevitt Lab",
@@ -84,9 +74,7 @@
       "startDate": "2021-10",
       "endDate": "2022-02",
       "summary": "Performed diagnostic prediction modeling research using machine learning for the Colgate project.",
-      "highlights": [
-        "Preprocessed and visualized complex biomarker data using SQL and R"
-      ]
+      "highlights": ["Preprocessed and visualized complex biomarker data using SQL and R"]
     },
     {
       "name": "University of Manchester",
@@ -95,9 +83,7 @@
       "startDate": "2017-09",
       "endDate": "2018-06",
       "summary": "Implemented a Spiking Neural Network simulator and conducted simulations to analyze neuronal networks.",
-      "highlights": [
-        "Thesis selected as one of the Best Computer Science Project Papers in 2018"
-      ]
+      "highlights": ["Thesis selected as one of the Best Computer Science Project Papers in 2018"]
     },
     {
       "name": "Korea University, Wireless Intelligence at Network Edge Lab",
@@ -134,33 +120,15 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": [
-        "Python",
-        "Java",
-        "C/C++",
-        "SQL",
-        "R",
-        "JavaScript",
-        "MATLAB"
-      ]
+      "keywords": ["Python", "Java", "C/C++", "SQL", "R", "JavaScript", "MATLAB"]
     },
     {
       "name": "Frameworks & Tools",
-      "keywords": [
-        "PyTorch",
-        "TensorFlow",
-        "Netmiko",
-        "AWS"
-      ]
+      "keywords": ["PyTorch", "TensorFlow", "Netmiko", "AWS"]
     },
     {
       "name": "Networking",
-      "keywords": [
-        "Cisco Firepower",
-        "Bluecoat Proxy",
-        "PRTG",
-        "Cisco Expressway"
-      ]
+      "keywords": ["Cisco Firepower", "Bluecoat Proxy", "PRTG", "Cisco Expressway"]
     }
   ],
   "languages": [
@@ -203,9 +171,9 @@
       "url": "/assets/pdf/kma-award.pdf"
     },
     {
-      "title": "Honorable Final-Year Project Award",
+      "title": "Computer Science Final-Year Project Award",
       "date": "2018-06-28",
-      "awarder": "Korean Government"
+      "awarder": "University of Manchester"
     },
     {
       "title": "International Mathematical Excellence Scholarship",

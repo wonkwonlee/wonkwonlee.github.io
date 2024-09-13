@@ -10,7 +10,7 @@ related_publications: true
 
 ## Introduction
 
-This project proposes an evaluation methodology called **epistemic parity**, which assesses the reproducibility of empirical conclusions in peer-reviewed papers using differentially private (DP) synthetic data. We reproduced findings from a selection of peer-reviewed papers using public datasets and compared these results to those generated using DP synthetic data. The goal is to determine whether conclusions hold when DP mechanisms are applied, thereby evaluating the utility of synthetic data. 
+This project proposes an evaluation methodology called **epistemic parity**, which assesses the reproducibility of empirical conclusions in peer-reviewed papers using differentially private (DP) synthetic data. We reproduced findings from a selection of peer-reviewed papers using public datasets and compared these results to those generated using DP synthetic data. The goal is to determine whether conclusions hold when DP mechanisms are applied, thereby evaluating the utility of synthetic data.
 
 This methodology aims to shift the focus of DP mechanisms toward preserving utility in real-world applications by measuring how likely the conclusions of papers remain unchanged when using DP synthetic data.
 
@@ -30,7 +30,7 @@ The datasets were processed using five state-of-the-art DP synthesizers: **MST**
 
 ### 2. Evaluation via Epistemic Parity
 
-We introduce **epistemic parity** as a new metric to measure the reproducibility of findings when using differentially private synthetic data. This metric evaluates how well the results obtained from synthetic data match those from the original datasets. 
+We introduce **epistemic parity** as a new metric to measure the reproducibility of findings when using differentially private synthetic data. This metric evaluates how well the results obtained from synthetic data match those from the original datasets.
 
 For each benchmark paper, we reran the original analyses using both the real and synthetic data. We then compared key metrics, such as model accuracy, effect sizes, or statistical significance, between the original and synthetic datasets. This comparison allows us to assess whether the empirical conclusions drawn from real data hold true when using synthetic data, providing a tangible measure of the utility of DP mechanisms.
 
@@ -51,6 +51,7 @@ The results demonstrate that state-of-the-art DP synthesizers are able to achiev
 </div>
 
 ### Findings:
+
 - **MST** and **PrivBayes** performed best on low-dimensional tabular data.
 - **PATECTGAN** showed promise for high-dimensional data but struggled with some findings.
 - **PrivMRF** was computationally expensive, limiting its application in high-dimensional settings.
