@@ -5,6 +5,9 @@
     "affiliation": "LG CNS America",
     "email": "wonkwon.lee@nyu.edu",
     "phone": "(646) 469-7805",
+    "website": "https://wonkwonlee.github.io",
+    "github": "wonkwonlee",
+    "summary": "A prospective PhD in Computer Science with a focus on trustworthy AI and differential privacy. Currently an engineer in LG.",
     "location": {
       "address": "111 Sylvan Ave, South Building L4",
       "postalCode": "07632",
@@ -19,6 +22,7 @@
       "location": "New York, NY",
       "studyType": "M.S.",
       "area": "Computer Science",
+      "startDate": "2021-09",
       "endDate": "2023-05",
       "courses": [
         "Computer Vision",
@@ -34,7 +38,12 @@
       "studyType": "B.S.",
       "area": "Computer Science and Mathematics",
       "endDate": "2018-06",
-      "courses": ["Machine Learning", "Convex Optimization", "Linear Algebra", "Graph Theory"]
+      "courses": [
+        "Machine Learning",
+        "Convex Optimization",
+        "Linear Algebra",
+        "Graph Theory"
+      ]
     }
   ],
   "work": [
@@ -43,7 +52,7 @@
       "position": "Network System Engineer",
       "location": "Englewood Cliffs, NJ",
       "startDate": "2024-04",
-      "summary": "System engineer focused on network infrastructure design and optimization; python authomation and network monitoring."
+      "summary": "System engineer focused on network infrastructure design and optimization; Python automation and network monitoring."
     },
     {
       "name": "PricewaterhouseCoopers",
@@ -51,38 +60,49 @@
       "location": "New York, NY",
       "startDate": "2022-06",
       "endDate": "2022-08",
-      "summary": "Implemented a BERT-based relation extraction model fine-tuned on TACRED dataset using PyTorch, and deployed models to AWS cloud platforms.",
-      "highlights": ["Defined data annotation, machine learning pipelines, and testing strategy"]
-    }
-  ],
-  "research experience": [
+      "summary": "Implemented a BERT-based relation extraction model fine-tuned on the TACRED dataset using PyTorch, and deployed models to AWS cloud platforms.",
+      "highlights": [
+        "Defined data annotation, machine learning pipelines, and testing strategy"
+      ]
+    },
     {
-      "institution": "New York University, Center for Responsible AI",
+      "name": "New York University, Center for Responsible AI",
       "position": "Graduate Research Assistant",
+      "location": "New York, NY",
       "startDate": "2022-09",
       "endDate": "2023-05",
       "summary": "Conducted research in Differentially Private synthetic data generation under Professor Julia Stoyanovich and contributed to a publication in PVLDB Vol. 16.",
-      "highlights": ["Best Paper Runner-Up Award at VLDB 2023", "Replicated ICPSR papers with public and privatized data"]
+      "highlights": [
+        "Best Paper Runner-Up Award at VLDB 2023",
+        "Replicated ICPSR papers with public and privatized data"
+      ]
     },
     {
-      "institution": "New York University, McDevitt Lab",
+      "name": "New York University, McDevitt Lab",
       "position": "Graduate Research Assistant",
+      "location": "New York, NY",
       "startDate": "2021-10",
       "endDate": "2022-02",
       "summary": "Performed diagnostic prediction modeling research using machine learning for the Colgate project.",
-      "highlights": ["Preprocessed and visualized complex biomarker data using SQL and R"]
+      "highlights": [
+        "Preprocessed and visualized complex biomarker data using SQL and R"
+      ]
     },
     {
-      "institution": "University of Manchester",
+      "name": "University of Manchester",
       "position": "Undergraduate Researcher",
+      "location": "Manchester, UK",
       "startDate": "2017-09",
       "endDate": "2018-06",
       "summary": "Implemented a Spiking Neural Network simulator and conducted simulations to analyze neuronal networks.",
-      "highlights": ["Thesis selected as one of the Best Computer Science Project Papers in 2018"]
+      "highlights": [
+        "Thesis selected as one of the Best Computer Science Project Papers in 2018"
+      ]
     },
     {
-      "institution": "Korea University, Wireless Intelligence at Network Edge Lab",
+      "name": "Korea University, Wireless Intelligence at Network Edge Lab",
       "position": "Undergraduate Research Intern",
+      "location": "Seoul, South Korea",
       "startDate": "2015-06",
       "endDate": "2015-08",
       "summary": "Participated in a drone simulation project under Professor Hwangnam Kim, implementing real-time optimization using MATLAB."
@@ -100,11 +120,11 @@
       "name": "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy",
       "publisher": "Proceedings of the VLDB Endowment",
       "releaseDate": "2023-01",
-      "summary": "Co-authored research on out-of-distribution robustness of vision models.",
+      "summary": "Co-authored research on differential privacy evaluation metrics.",
       "url": "https://arxiv.org/abs/2301.10750"
     },
     {
-      "name": "Out of distribution performance of state of art vision model",
+      "name": "Out of Distribution Performance of State-of-the-Art Vision Models",
       "publisher": "arXiv",
       "releaseDate": "2023-01",
       "summary": "Research on the out-of-distribution performance of state-of-the-art vision models.",
@@ -114,15 +134,33 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["Python", "Java", "C/C++", "SQL", "R", "JavaScript", "MATLAB"]
+      "keywords": [
+        "Python",
+        "Java",
+        "C/C++",
+        "SQL",
+        "R",
+        "JavaScript",
+        "MATLAB"
+      ]
     },
     {
       "name": "Frameworks & Tools",
-      "keywords": ["PyTorch", "TensorFlow", "Netmiko", "AWS"]
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Netmiko",
+        "AWS"
+      ]
     },
     {
       "name": "Networking",
-      "keywords": ["Cisco Firepower", "Bluecoat Proxy", "PRTG", "Cisco Expressway"]
+      "keywords": [
+        "Cisco Firepower",
+        "Bluecoat Proxy",
+        "PRTG",
+        "Cisco Expressway"
+      ]
     }
   ],
   "languages": [
@@ -139,39 +177,40 @@
       "fluency": "Proficient"
     }
   ],
-  "awards & honors": [
+  "awards": [
     {
-      "title": "SIGMOD Highlight Awards",
-      "date": "2024-01",
-      "url": "https://sigmod.org/sigmod-awards/sigmod-research-highlights/#:~:text=Epistemic Parity%3A Reproducibility as an Evaluation Metric for Differential Privacy%0ALucas Rosenblatt%2C Bernease Herman%2C Anastasia Holovenko%2C Wonkwon Lee%2C Joshua Loftus%2C Elizabeth McKinnie%2C Taras Rumezhak%2C Andrii Stadnik%2C Bill Howe%2C Julia Stoyanovich Xiaoyong Du%2C Xiaofeng Jia%2C Song Gao",
-      "awardedBy": "ACM SIGMOD",
-      "comment": "I was honored to work with Julia Stoyanovich, Lucas Rosenblatt, and all other collaborators, and I learned a lot from the project."
+      "title": "2024 SIGMOD Highlight Award",
+      "date": "2024-06-09",
+      "awarder": "ACM SIGMOD",
+      "url": "https://sigmod.org/sigmod-awards/sigmod-research-highlights/",
+      "comment": "Honored to work with Julia Stoyanovich and collaborators on this project."
     },
     {
-      "title": "VLDB Best Experiment, Analysis & Benchmark Paper Runner-ups",
-      "date": "2023-05",
-      "url": "https://vldb.org/2023/?conference-awards#:~:text=Epistemic%20Parity%3A%20Reproducibility%20as,Stoyanovich%20(New%20York%20University)",
-      "awardedBy": "VLDB"
+      "title": "2024 VLDB Best Experiment, Analysis & Benchmark Paper Runner-up",
+      "date": "2023-08-28",
+      "awarder": "VLDB",
+      "url": "https://vldb.org/2023/?conference-awards"
     },
     {
       "title": "Wasserman Center Career Grant",
-      "date": "2021-10",
-      "awardedBy": "NYU"
+      "date": "2021-11-01",
+      "awarder": "NYU"
     },
     {
       "title": "KMA Landslide Prediction Big Data Contest",
-      "date": "2021-08",
-      "awardedBy": "Korea Meteorological Administration)"
+      "date": "2021-09-06",
+      "awarder": "Korea Meteorological Administration",
+      "url": "/assets/pdf/kma-award.pdf"
     },
     {
-      "title": "Best Final-Year Project Paper Award",
-      "date": "2018",
-      "awardedBy": "Korean Government"
+      "title": "Honorable Final-Year Project Award",
+      "date": "2018-06-28",
+      "awarder": "Korean Government"
     },
     {
-      "title": "International Mathematical Excellence Scholarships",
+      "title": "International Mathematical Excellence Scholarship",
       "date": "2015-2017",
-      "awardedBy": "University of Manchester"
+      "awarder": "University of Manchester"
     }
   ],
   "references": [
@@ -182,16 +221,16 @@
       "email": "stoyanovich@nyu.edu"
     },
     {
-      "name": "Rob Fergus",
-      "position": "Professor, Computer Science",
-      "institution": "New York University",
-      "email": "fergus@cs.nyu.edu"
-    },
-    {
       "name": "Martin Lotz",
       "position": "Associate Professor, Mathematics",
       "institution": "University of Warwick",
       "email": "martin.lotz@warwick.ac.uk"
+    },
+    {
+      "name": "Rizos Sakellariou",
+      "position": "Professor, Computer Science",
+      "institution": "University of Manchester",
+      "email": "rizos@manchester.ac.uk"
     }
   ]
 }
