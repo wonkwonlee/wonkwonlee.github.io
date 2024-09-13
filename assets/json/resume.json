@@ -20,8 +20,6 @@
       "studyType": "M.S.",
       "area": "Computer Science",
       "endDate": "2023-05",
-      "gpa": "3.48",
-      "awards": ["Wasserman Career Grant"],
       "courses": [
         "Computer Vision",
         "Natural Language Processing",
@@ -36,8 +34,6 @@
       "studyType": "B.S.",
       "area": "Computer Science and Mathematics",
       "endDate": "2018-06",
-      "honors": "Upper-Second Class Honors",
-      "awards": ["International Mathematics Merit Scholarship"],
       "courses": ["Machine Learning", "Convex Optimization", "Linear Algebra", "Graph Theory"]
     }
   ],
@@ -47,7 +43,7 @@
       "position": "Network System Engineer",
       "location": "Englewood Cliffs, NJ",
       "startDate": "2024-04",
-      "summary": "Network system engineer focused on infrastructure design and optimization."
+      "summary": "System engineer focused on network infrastructure design and optimization; python authomation and network monitoring."
     },
     {
       "name": "PricewaterhouseCoopers",
@@ -57,26 +53,9 @@
       "endDate": "2022-08",
       "summary": "Implemented a BERT-based relation extraction model fine-tuned on TACRED dataset using PyTorch, and deployed models to AWS cloud platforms.",
       "highlights": ["Defined data annotation, machine learning pipelines, and testing strategy"]
-    },
-    {
-      "name": "Mozzign",
-      "position": "Network System Engineer",
-      "location": "New York, NY",
-      "startDate": "2021-06",
-      "endDate": "2021-08",
-      "summary": "Analyzed US health insurance data and implemented regression and random forest models using Pandas, Seaborn, Matplotlib, and scikit-learn.",
-      "highlights": ["Led a team of 6 interns as a Product Manager"]
-    },
-    {
-      "name": "Republic of Korea Air Force",
-      "position": "Staff Sergeant",
-      "location": "Seongnam, South Korea",
-      "startDate": "2018-12",
-      "endDate": "2020-10",
-      "summary": "Mandatory military service; administered the military intranet, server, and security works."
     }
   ],
-  "research": [
+  "research experience": [
     {
       "institution": "New York University, Center for Responsible AI",
       "position": "Graduate Research Assistant",
@@ -160,40 +139,39 @@
       "fluency": "Proficient"
     }
   ],
-  "honors": [
+  "awards & honors": [
     {
       "title": "SIGMOD Highlight Awards",
-      "date": "2024"
+      "date": "2024-01",
+      "url": "https://sigmod.org/sigmod-awards/sigmod-research-highlights/#:~:text=Epistemic Parity%3A Reproducibility as an Evaluation Metric for Differential Privacy%0ALucas Rosenblatt%2C Bernease Herman%2C Anastasia Holovenko%2C Wonkwon Lee%2C Joshua Loftus%2C Elizabeth McKinnie%2C Taras Rumezhak%2C Andrii Stadnik%2C Bill Howe%2C Julia Stoyanovich Xiaoyong Du%2C Xiaofeng Jia%2C Song Gao",
+      "awardedBy": "ACM SIGMOD",
+      "comment": "I was honored to work with Julia Stoyanovich, Lucas Rosenblatt, and all other collaborators, and I learned a lot from the project."
     },
     {
       "title": "VLDB Best Experiment, Analysis & Benchmark Paper Runner-ups",
-      "date": "2023"
+      "date": "2023-05",
+      "url": "https://vldb.org/2023/?conference-awards#:~:text=Epistemic%20Parity%3A%20Reproducibility%20as,Stoyanovich%20(New%20York%20University)",
+      "awardedBy": "VLDB"
     },
     {
-      "title": "Wasserman Career Grant",
-      "date": "2021"
+      "title": "Wasserman Center Career Grant",
+      "date": "2021-10",
+      "awardedBy": "NYU"
     },
     {
       "title": "KMA Landslide Prediction Big Data Contest",
-      "date": "2021"
-    }
-  ],
-  "awards": [
-    {
-      "name": "SIGMOD Highlight Awards",
-      "date": "2024"
+      "date": "2021-08",
+      "awardedBy": "Korea Meteorological Administration)"
     },
     {
-      "name": "VLDB Best Experiment, Analysis, & Benchmark Paper Runner-ups",
-      "date": "2023"
+      "title": "Best Final-Year Project Paper Award",
+      "date": "2018",
+      "awardedBy": "Korean Government"
     },
     {
-      "name": "NYU Wasserman Career Grant",
-      "date": "2021"
-    },
-    {
-      "name": "University of Manchester International Mathematics Merit Scholarship",
-      "date": "2015-2017"
+      "title": "International Mathematical Excellence Scholarships",
+      "date": "2015-2017",
+      "awardedBy": "University of Manchester"
     }
   ],
   "references": [
