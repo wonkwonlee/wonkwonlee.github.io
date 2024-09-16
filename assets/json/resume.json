@@ -142,21 +142,20 @@
     },
     {
       "language": "Japanese",
-      "fluency": "Proficient"
+      "fluency": "Fluent"
     }
   ],
   "awards": [
     {
-      "title": "2024 SIGMOD Highlight Award",
+      "title": "SIGMOD Research Highlight Awards",
       "date": "2024-06-09",
       "awarder": "ACM SIGMOD",
-      "url": "https://sigmod.org/sigmod-awards/sigmod-research-highlights/",
-      "comment": "Honored to work with Julia Stoyanovich and collaborators on this project."
+      "url": "https://sigmod.org/sigmod-awards/sigmod-research-highlights/"
     },
     {
-      "title": "2024 VLDB Best Experiment, Analysis & Benchmark Paper Runner-up",
+      "title": "Best Experiment, Analysis & Benchmark Paper Runner-up",
       "date": "2023-08-28",
-      "awarder": "VLDB",
+      "awarder": "VLDB 2023",
       "url": "https://vldb.org/2023/?conference-awards"
     },
     {
@@ -176,7 +175,7 @@
       "awarder": "University of Manchester"
     },
     {
-      "title": "International Mathematical Excellence Scholarship (",
+      "title": "International Mathematical Excellence Scholarship",
       "date": "2015-09-15",
       "awarder": "University of Manchester",
       "summary": "2015, 2016, 2017"
