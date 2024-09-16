@@ -5,7 +5,6 @@
     "affiliation": "LG CNS America",
     "email": "wonkwon.lee@nyu.edu",
     "phone": "(646) 469-7805",
-    "CV": "https://rxresu.me/wonkwonlee/cs-phd-application-cv",
     "github": "wonkwonlee",
     "summary": "A prospective PhD in Computer Science with a focus on trustworthy AI and differential privacy. Currently an engineer in LG.",
     "location": {
@@ -99,21 +98,21 @@
       "name": "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy",
       "publisher": "ACM SIGMOD Record",
       "releaseDate": "2024-06",
-      "summary": "Lucas Rosenblatt, Bernease Herman, Anastasia Holovenko, **Wonkwon Lee**, Joshua Loftus, Elizabeth McKinnie, Taras Rumezhak, Andrii Stadnik, Bill Howe, Julia Stoyanovich",
+      "summary": "Lucas Rosenblatt, Bernease Herman, Anastasia Holovenko, Wonkwon Lee, Joshua Loftus, Elizabeth McKinnie, Taras Rumezhak, Andrii Stadnik, Bill Howe, Julia Stoyanovich",
       "url": "https://doi.org/10.1145/123456789"
     },
     {
       "name": "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy",
       "publisher": "Proceedings of the VLDB Endowment",
       "releaseDate": "2023-08",
-"summary": "Lucas Rosenblatt, Bernease Herman, Anastasia Holovenko, **Wonkwon Lee**, Joshua Loftus, Elizabeth McKinnie, Taras Rumezhak, Andrii Stadnik, Bill Howe, Julia Stoyanovich",
+"summary": "Lucas Rosenblatt, Bernease Herman, Anastasia Holovenko, Wonkwon Lee, Joshua Loftus, Elizabeth McKinnie, Taras Rumezhak, Andrii Stadnik, Bill Howe, Julia Stoyanovich",
       "url": "https://arxiv.org/abs/2301.10750"
     },
     {
       "name": "Out of Distribution Performance of State-of-the-Art Vision Models",
       "publisher": "arXiv",
       "releaseDate": "2023-01",
-      "summary": "Salman Rahman, **Wonkwon Lee**",
+      "summary": "Salman Rahman, Wonkwon Lee",
       "url": "https://arxiv.org/abs/2301.10750"
     }
   ],
