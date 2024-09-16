@@ -37,7 +37,7 @@
       "studyType": "B.S.",
       "area": "Computer Science and Mathematics",
       "endDate": "2018-06",
-      "courses": ["Machine Learning", "Convex Optimization", "Linear Algebra", "Graph Theory"]
+      "courses": ["Convex Optimization", "Linear Algebra"]
     }
   ],
   "work": [
