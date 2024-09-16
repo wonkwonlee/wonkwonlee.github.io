@@ -1,11 +1,11 @@
-basics:
-  name: Wonkwon Lee
-  label: System Engineer
-  email: wonkwon.lee@nyu.edu
-  phone: (646) 469-7805
-  location:
-    address: 111 Sylvan Ave, South Building L4
-    postalCode: 07632
-    city: Englewood Cliffs
-    countryCode: US
-    region: New Jersey
+# basics:
+#   name: Wonkwon Lee
+#   label: System Engineer
+#   email: wonkwon.lee@nyu.edu
+#   phone: (646) 469-7805
+#   location:
+#     address: 111 Sylvan Ave, South Building L4
+#     postalCode: 07632
+#     city: Englewood Cliffs
+#     countryCode: US
+#     region: New Jersey
