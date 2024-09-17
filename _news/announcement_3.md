@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Graduated from New York University, Courant Institute of Mathematical Sciences with MS in Computer Science!
