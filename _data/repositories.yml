@@ -6,9 +6,11 @@ repo_description_lines_max: 2
 github_repos:
   - DataResponsibly/SynRD
   - wonkwonlee/out-of-distribution-vision-model
+  - wonkwonlee/nutrition-labels-for-home-credit-default-risk
   - wonkwonlee/time-series-vision-model
   - wonkwonlee/als-recommender-system
   - wonkwonlee/landslide-prediction-modeling
   - wonkwonlee/ai-study-note
-  - wonkwonlee/dacon-ai-writing-style-classification
   - wonkwonlee/neurons-and-neuronal-networks
+  - wonkwonlee/dacon-ai-writing-style-classification
+
