@@ -48,9 +48,6 @@ The Random Forest model achieved 67% accuracy and showed minimal bias when analy
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ads/class.png" title="Figure 4: Prediction Probabilities (Classified Example)" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-
-<div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ads/misclass.png" title="Figure 5: Prediction Probabilities (Misclassified Example)" class="img-fluid rounded z-depth-1" %}
     </div>

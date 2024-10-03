@@ -16,9 +16,9 @@ The research investigates how different architectures perform under various dist
 
 The full paper can be accessed on [arXiv](https://doi.org/10.48550/arXiv.2301.10750) and the code is available on [GitHub](https://github.com/salman-lui/vision_course_project).
 
-{% reference rahman2023out %}
+### Publication
 
-<!-- {% cite rahman2023out %} -->
+{% reference rahman2023out %}
 
 ## Summary
 
