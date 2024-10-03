@@ -8,6 +8,8 @@ category: research
 importance: 2
 ---
 
+## Introduction
+
 This project provides a thorough out-of-distribution (OOD) robustness comparison across 58 state-of-the-art computer vision models. These include models based on vision transformers, convolutional networks, hybrid mechanisms, and more.
 
 The research investigates how different architectures perform under various distribution shifts, highlighting the strengths and weaknesses of each approach in terms of robustness.

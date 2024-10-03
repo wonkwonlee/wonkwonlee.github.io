@@ -5,7 +5,7 @@ description: Image Classification Model for Temporal Disease Progression of Ches
 img: assets/img/timeseries_medical/timeseries_medical-1.png
 related_publications: true
 category: research
-importance: 3
+importance: 1
 ---
 
 ## Introduction
