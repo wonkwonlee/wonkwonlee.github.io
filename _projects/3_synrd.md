@@ -45,13 +45,13 @@ For each benchmark paper, we reran the original analyses using both the real and
 The results demonstrate that state-of-the-art DP synthesizers are able to achieve high epistemic parity in many cases, though some papers presented challenges due to high-dimensional data and specific findings.
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/synrd/synrd-figure2.png" title="Figure 2: A Visual Finding from Fairman et al. (2020)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/synrd/synrd-figure3.png" title="Figure 3: Epistemic Parity for Competitive Mechanisms" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
