@@ -14,11 +14,11 @@ This project proposes an evaluation methodology called **epistemic parity**, whi
 
 This methodology aims to shift the focus of DP mechanisms toward preserving utility in real-world applications by measuring how likely the conclusions of papers remain unchanged when using DP synthetic data.
 
-<!-- {% reference rosenblatt2024epistemic %} -->
+{% reference rosenblatt2024epistemic %}
 
 {% reference rosenblatt2023epistemic %}
 
-{% cite rosenblatt2024epistemic %}
+<!-- {% cite rosenblatt2024epistemic %} -->
 
 <!-- {% cite rosenblatt2023epistemic %} -->
 

@@ -18,7 +18,7 @@ The full paper can be accessed on [arXiv](https://doi.org/10.48550/arXiv.2301.10
 
 {% reference rahman2023out %}
 
-{% cite rahman2023out %}
+<!-- {% cite rahman2023out %} -->
 
 ## Summary
 
