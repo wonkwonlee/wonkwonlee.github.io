@@ -5,7 +5,7 @@ description: A fairness and explainability analysis on loan repayment prediction
 img: assets/img/ads/pairwise.png
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 ---
 
 ## Introduction
@@ -38,37 +38,37 @@ The Random Forest model achieved 67% accuracy and showed minimal bias when analy
 ### Figures
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ads/ext.png" title="Figure 1: EXT_SOURCE Distributions" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ads/correlation.png" title="Figure 2: Correlation Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ads/correct1.png" title="Figure 3: LIME Explanation (Correct Classification)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ads/class.png" title="Figure 4: Prediction Probabilities (Classified Example)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ads/misclass.png" title="Figure 5: Prediction Probabilities (Misclassified Example)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ads/pairwise.png" title="Figure 6: Mutual Information" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

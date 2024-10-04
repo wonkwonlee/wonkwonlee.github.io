@@ -5,7 +5,7 @@ description: Research project comparing the robustness of 58 computer vision mod
 img: assets/img/ood/ood.jpg
 related_publications: true
 category: research
-importance: 2
+importance: 1
 ---
 
 ## Introduction
