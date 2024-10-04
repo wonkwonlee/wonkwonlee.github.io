@@ -16,9 +16,13 @@ This methodology aims to shift the focus of DP mechanisms toward preserving util
 
 ### Publication
 
-{% reference rosenblatt2024epistemic %}
+<!-- {% reference rosenblatt2024epistemic %}
 
-{% reference rosenblatt2023epistemic %}
+{% reference rosenblatt2023epistemic %} -->
+
+{% cite rosenblatt2024epistemic %}
+
+{% cite rosenblatt2023epistemic %}
 
 ## Methodology
 
