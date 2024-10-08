@@ -28,7 +28,7 @@ categories: bootcamp
 
 ### Kkma
 
-- [**Kkma**](http://kkma.snu.ac.kr/documents/?doc=postag) 는 서울대학교 IDS(Intelligent Data Systems) 연구실에서 자연어 처리를 위해 개발한 한국형 형태소 분석기로 *꼬꼬마*라고 발음한다.
+- [**Kkma**]는 서울대학교 IDS(Intelligent Data Systems) 연구실에서 자연어 처리를 위해 개발한 한국형 형태소 분석기로 *꼬꼬마*라고 발음한다.
 - Kkma는 다음 4가지 함수를 제공한다.
   <img width="1292" alt="kkma" src="https://user-images.githubusercontent.com/28593767/115185952-cf5b7b00-a11b-11eb-8900-6b10475a3618.png">
 
