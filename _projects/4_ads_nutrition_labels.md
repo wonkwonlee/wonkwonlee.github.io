@@ -12,12 +12,12 @@ related_publications: false
 
 This project analyzes the fairness and explainability of an Automated Decision System (ADS) designed to predict loan repayment using the Home Credit Default Risk dataset. We focused on applying Logistic Regression and Random Forest models, while ensuring fairness across subpopulations such as age, gender, and education.
 
-
 ## Data Preprocessing
 
 We processed the Home Credit dataset to encode categorical variables, impute missing values, and scale features. We handled the imbalanced class distribution by applying evaluation metrics that account for it.
 
 The dataset includes multiple files with loan applications, credit history, and client information. Key files:
+
 - `application_train.csv` and `application_test.csv`: Loan application data with and without the target.
 - `bureau.csv`: Data from the Credit Bureau on clients' past loans.
 
@@ -32,6 +32,7 @@ We evaluated two models: Logistic Regression as a baseline and Random Forest for
 The Random Forest model achieved 67% accuracy and showed minimal bias when analyzing protected attributes such as age, gender, and education. However, the imbalanced class distribution affected model performance.
 
 ### Key Insights
+
 - **Fairness**: Minimal bias was observed for age, gender, or education.
 - **Imbalance**: Addressing the target imbalance is crucial for improving accuracy.
 
@@ -78,4 +79,3 @@ The Random Forest model achieved 67% accuracy and showed minimal bias when analy
 The ADS demonstrated fairness, but future improvements should address the class imbalance and incorporate more external datasets to enhance prediction accuracy.
 
 For more details, visit the [GitHub Repository](https://github.com/wonkwonlee/nutrition-labels-for-home-credit-default-risk).
-
