@@ -25,9 +25,10 @@
       "courses": [
         "Computer Vision",
         "Natural Language Processing",
-        "Responsible Data Science",
+        "Responsible AI",
         "Data Science for Healthcare",
-        "Advanced Database Systems"
+        "Advanced Database Systems",
+        "Big Data"
       ]
     },
     {
@@ -37,11 +38,15 @@
       "area": "Computer Science and Mathematics",
       "endDate": "2018-06",
       "courses": [
+        "Machine Learning",
         "Convex Optimization", 
         "Linear Algebra", 
         "Partial Differential Equations", 
+        "Complex Analysis",
         "Image Processing", 
-        "Cryptography"]
+        "Cryptography",
+        "Algebraic Structures"
+      ]
     }
   ],
   "work": [
@@ -52,18 +57,20 @@
       "startDate": "2024-04",
       "highlights": [
         "Designed and implemented network infrastructure to enhance system performance and security, collaborating with cross-functional teams to troubleshoot and resolve complex networking issues.",
-        "Monitored and maintained network systems to ensure optimal uptime and reliability"
+        "Implemented automated network monitoring and reporting systems to ensure optimal uptime and reliability using Python, Netmiko, and PRTG API.",
+        "Created comprehensive network documentation, including diagrams, operational procedures, and troubleshooting guides, to facilitate knowledge sharing and system maintenance."
       ]
     },
     {
       "name": "Stealth Project (EPLIA)",
       "position": "Co-founder / Software Engineer",
       "location": "San Francisco, CA",
-      "startDate": "01/2023",
-      "endDate": "2023-12",
+      "startDate": "2023-01",
+      "endDate": "2024-01",
       "highlights": [
-        "Co-founded a startup developing a telemedicine app that connects patients with doctors fluent in their native language, enhancing accessibility and patient care.",
-        "Designed and implemented core application features using Next.js for the front-end, AWS for cloud services, and WebRTC for real-time communication."
+        "Co-founded a healthcare startup aimed at improving accessibility by addressing language barriers in telemedicine.",
+        "Led the design and development of a web application using Next.js, AWS cloud infrastructure, and WebRTC for real-time communication.",
+        "Managed cross-functional collaboration to deliver a scalable, reliable platform tailored to the unique needs of diverse users."  
       ]
     },
 
@@ -74,8 +81,8 @@
       "startDate": "2022-06",
       "endDate": "2022-08",
       "highlights": [
-        "Implemented and fine-tuned a BERT-based relation extraction model using PyTorch to classify semantic relationships between entities.",
-        "Designed data annotation protocols and ML pipelines; deployed the models to AWS for scalable production use"
+        "Implemented and fine-tuned a BERT model to classify semantic relationships between entities using PyTorch.",
+        "Designed data annotation protocols and ML pipelines from data, training, to deployment; deployed the models to AWS for scalable production use."
       ]
     },
     {
@@ -97,29 +104,32 @@
       "startDate": "2021-10",
       "endDate": "2022-02",
       "highlights": [
-        "Performed predictive diagnostic research under Professor John T. McDevitt and conducted statistical and meta-analysis.",
-        "Preprocessed and visualized biomarker data from microfluidic chip sensors using R, Matplotlib, and Pandas."
+        "Performed diagnostic prediction modeling research for the Colgate Project under Professor John T. McDevitt, utilizing machine learning and statistical methods for data analysis.",
+        "Preprocessed and visualized complex unstructured biomarker data from microfluidic sensors using SQL, R, Pandas, and Seaborn.",
+        "Conducted a meta-analysis to combine and analyze data from multiple sources by extracting semantics."
       ]
     },
     {
       "name": "Spiking Neural Network Simulation, University of Manchester",
-      "position": "Undergraduate Researcher",
+      "position": "Undergraduate Research Assistant",
       "location": "Manchester, UK",
       "startDate": "2017-09",
       "endDate": "2018-06",
       "highlights": [
-        "Implemented a Spiking Neural Network simulator and conducted simulations to analyze neuronal networks.",
-        "Thesis selected as one of the Best Computer Science Project Papers in 2018"
+        "Designed and implemented a Spiking Neural Network simulator using Python, QtPy5, Brian2, and neurodynex to investigate neuromorphic computing paradigms inspired by biological neural systems.",
+        "Simulated and analyzed dynamical behaviors and synchronization patterns in neuron populations influenced by network topology and external stimuli, leveraging Complex Systems methodologies.",
+        "Conducted research under the supervision of Dr. Eva Navarro Lopez, culminating in the thesis “Models of Neurons and Neuronal Networks,” which received the Best Paper award."
       ]
     },
     {
       "name": "Wireless Intelligence at Network Edge Lab, Korea University",
       "position": "Undergraduate Research Intern",
       "location": "Seoul, South Korea",
-      "startDate": "2015-06",
-      "endDate": "2015-08",
+      "startDate": "2016-06",
+      "endDate": "2016-08",
       "highlights": [
-        "Participated in a drone simulation project under Professor Hwangnam Kim, implementing real-time optimization using MATLAB."
+        "Worked on an IoT Drone project under the supervision of Professor Hwangnam Kim as a Summer Undergraduate Research Intern.",
+        "Developed and implemented new functionalities in MATLAB to optimize real-time simulation of networked drone fleets."
       ]
     }
   ],
@@ -215,26 +225,6 @@
       "date": "2015-09-15",
       "awarder": "University of Manchester",
       "summary": "2015, 2016, 2017"
-    }
-  ],
-  "references": [
-    {
-      "name": "Julia Stoyanovich",
-      "position": "Associate Professor, Computer Science and Engineering",
-      "institution": "New York University",
-      "email": "stoyanovich@nyu.edu"
-    },
-    {
-      "name": "Martin Lotz",
-      "position": "Associate Professor, Mathematics",
-      "institution": "University of Warwick",
-      "email": "martin.lotz@warwick.ac.uk"
-    },
-    {
-      "name": "Rizos Sakellariou",
-      "position": "Professor, Computer Science",
-      "institution": "University of Manchester",
-      "email": "rizos@manchester.ac.uk"
     }
   ]
 }
