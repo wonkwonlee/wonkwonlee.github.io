@@ -22,4 +22,12 @@ Hello, World 🌍!
 
 👋 Hi, Thank you for stopping by. I’m Wonkwon Lee, a researcher with a mission to make AI as trustworthy as it is smart. While many are pushing the limits of what AI can do, I’m focused on how it does it. My research dives into ethical data modification and robust AI systems—ensuring AI doesn’t just learn, but learns responsibly. Think of it as giving AI a moral compass (because nobody wants a rebellious AI, right?).
 
-🔐 My work spans differentially private data (keeping your data safe!) and improving vision model robustness (so AI can handle unexpected surprises). I believe that with the right balance of privacy and resilience, AI can become a tool that genuinely benefits society without unintended consequences.
+
+#### [Research Statement](/assets/pdf/WLee-SOP.pdf)
+🤖 If you want to know more about my research vision, here is my formal research statement.
+
+#### [Personal Statement](/assets/pdf/WLee-PS.pdf)
+🔍 If you want to know more about my personal aspects, this is it!
+
+#### [Curriculum Vitae](/assets/pdf/Wonkwon-Lee-CV.pdf)
+📄 Professional CV. Also check [CV page](/cv/)!
