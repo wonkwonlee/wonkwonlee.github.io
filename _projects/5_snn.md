@@ -10,9 +10,9 @@ related_publications: false
 
 ## Introduction
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/snn-screencast.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/simulation.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 
@@ -113,4 +113,4 @@ Future work could involve extending the simulator to include:
 - **Advanced network topologies:** Exploring more complex and biologically accurate network structures.
 - **Larger-scale simulations:** Leveraging high-performance computing (HPC) to simulate larger neuronal networks.
 
-For further details, refer to the [project report](assets/pdf/models-of-neurons-and-neuronal-network.pdf) or explore the [repository](https://github.com/wonkwonlee/neurons-and-neuronal-networks) for source code and additional resources.
+For further details, refer to the [project report](/assets/pdf/models-of-neurons-and-neuronal-network.pdf) or explore the [repository](https://github.com/wonkwonlee/neurons-and-neuronal-networks) for source code and additional resources.
