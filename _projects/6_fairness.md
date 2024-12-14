@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Fairness-Enhancing Interventions in Machine Learning Pipelines"
+title: "Fairness-Enhancing Interventions in ML Pipelines"
 description: Exploring fairness-enhancing methods in binary classification pipelines using AIF360 and Folktables datasets.
 img: assets/img/fairness/aif360.svg
 importance: 1
@@ -45,19 +45,17 @@ This project investigates fairness-enhancing interventions in binary classificat
 
 ### 3. Fairness-Enhancing Algorithms
 
-#### **a. Disparate Impact Remover (DI-Remover)**
+#### a. Disparate Impact Remover (DI-Remover)
 - Apply DI-Remover to the dataset with varying repair levels.
 - Train the Random Forest model on the transformed datasets and evaluate the impact on fairness and accuracy metrics.
 
-#### **b. Prejudice Remover**
+#### b. Prejudice Remover
 - Train a Prejudice Remover classifier with different values of the `eta` parameter ([0.01, 0.1, 1]).
 - Analyze the trade-off between fairness and accuracy.
 
-#### **c. Reject Option Classification**
+#### c. Reject Option Classification
 - Use Reject Option Classification on predictions from the baseline Random Forest model.
 - Evaluate its impact on fairness metrics across 10 train-validation-test splits.
-
----
 
 ## Results and Discussion
 
@@ -67,20 +65,18 @@ This project investigates fairness-enhancing interventions in binary classificat
 - **Prejudice Remover**: Explored how fairness regularization (`eta`) modifies both fairness and accuracy.
 - **Reject Option Classification**: Compared results to other fairness-enhancing methods, highlighting its effectiveness in mitigating bias.
 
----
 
 ## Figures and Visualizations
 
-
 ### Metric Comparison Before and After Tuning
 <div class="row">
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/fairness/privileged.png" title="Privileged Group Accuracy" %}
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/fairness/unprivileged.png" title="Unprivileged Group Accuracy" %}
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/fairness/di.png" title="Disparate Impact" %}
     </div>
 </div>
@@ -88,23 +84,17 @@ This project investigates fairness-enhancing interventions in binary classificat
 ### Impact of DI-Remover Repair Level
 
 <div class="row">
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-2 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/fairness/di-remover.png" title="Disparate Impact" %}
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-2 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/fairness/fpr.png" title="False Positive Rate Difference" %}
     </div>
 </div>
 
-
----
-
 ## Notebook and Code
 
-The complete code and analysis are available in the GitHub.
-
-[Fairness-Enhancing Interventions Repository](https://github.com/wonkwonlee/fairness-intervention)
----
+The complete code and analysis are available in the [Fairness-Enhancing Interventions Repository](https://github.com/wonkwonlee/fairness-intervention).
 
 ## Future Work
 

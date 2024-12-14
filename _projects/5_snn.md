@@ -43,7 +43,7 @@ Simulations focused on the following:
 - **Network behavior:** Explored synchronization in neuronal networks with and without background stimuli, measuring the degree of synchronicity across various configurations.
 
 <div class="row">
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/snn/GUI.png" title="Figure 1: GUI Interface for Neuronal Network Simulator" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

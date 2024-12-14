@@ -5,7 +5,9 @@ repo_description_lines_max: 2
 
 github_repos:
   - DataResponsibly/SynRD
+  - wonkwonlee/fairness-intervention
   - wonkwonlee/out-of-distribution-vision-model
+  - wonkwonlee/data-synthesizer
   - wonkwonlee/nutrition-labels-for-home-credit-default-risk
   - wonkwonlee/time-series-vision-model
   - wonkwonlee/als-recommender-system
