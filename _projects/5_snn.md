@@ -3,7 +3,7 @@ layout: page
 title: "Spiking Neural Network Simulatation: Modeling and Synchronization Analysis"
 description: A Python-based simulator exploring spiking neural networks and synchronization properties in neuronal systems.
 img: assets/img/snn/snn_title.png
-importance: 1
+importance: 3
 category: research
 related_publications: false
 ---

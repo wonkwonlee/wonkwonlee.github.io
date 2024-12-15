@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Privacy-Preserving Synthetic Data"
+title: Privacy-Preserving Synthetic Data
 description: Generating privacy-preserving synthetic datasets and evaluating their accuracy and fairness using Data Synthesizer and MST.
 img: assets/img/synthetic/box-whisker-kl.png
-importance: 1
+importance: 2
 category: research
 related_publications: false
 ---

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Nutritional Labels for Automated Decision Systems by Home Credit Default Risk"
+title: Nutritional Labels for Automated Decision Systems by Home Credit Default Risk
 description: A fairness and explainability analysis on loan repayment predictions using machine learning models.
 img: assets/img/ads/pairwise.png
-importance: 1
+importance: 2
 category: research
 related_publications: false
 ---
