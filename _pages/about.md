@@ -18,9 +18,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, World 🌍!
+👋 Hello, I'm Wonkwon Raymond Lee!
 
-👋 Hi, Thank you for stopping by. I’m Wonkwon Lee, a researcher with a mission to make AI as trustworthy as it is smart. While many are pushing the limits of what AI can do, I’m focused on how it does it. My research dives into ethical data modification and robust AI systems—ensuring AI doesn’t just learn, but learns responsibly. Think of it as giving AI a moral compass (because nobody wants a rebellious AI, right?).
+I am a researcher with a mission to make AI as trustworthy as it is smart. 
+My research interests are in trustworthy AI with an emphasis on security, robustness, interpretability, and fairness. 
+I aim to develop robust and reliable AI systems-ensuring AI doesn’t just learn, but learns responsibly. 
+Think of it as giving AI a moral compass.
+
+I am also broadly interested in machine reasoning. The recent advancement of pre
+
+I have come to believe that the behaviors of foundation models are somewhat emergent-delving into the 
 
 
 #### [Research Statement](/assets/pdf/WLee-SOP.pdf)
