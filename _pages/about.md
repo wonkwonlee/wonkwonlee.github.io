@@ -25,10 +25,6 @@ My research interests are in trustworthy AI with an emphasis on security, robust
 I aim to develop robust and reliable AI systems-ensuring AI doesn’t just learn, but learns responsibly. 
 Think of it as giving AI a moral compass.
 
-I am also broadly interested in machine reasoning. The recent advancement of pre
-
-I have come to believe that the behaviors of foundation models are somewhat emergent-delving into the 
-
 
 #### [Research Statement](/assets/pdf/WLee-SOP.pdf)
 🤖 If you want to know more about my research vision, here is my formal research statement.
