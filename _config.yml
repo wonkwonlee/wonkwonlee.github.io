@@ -6,14 +6,14 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Wonkwon
 middle_name: Raymond
 last_name: Lee
-email: wonkwon.lee@nyu.edu
+email: wonkwon.lee94@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  AI Infrastructure & Applied AI Engineer. Reliable systems, technical delivery, and AI change safety for regulated enterprises.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: AI infrastructure, applied AI, AI engineer, Python automation, network engineering, AI safety, responsible AI, LLM workflows # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -113,7 +113,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  Reach out wonkwon.lee@nyu.edu for collaborations, questions, or just to say hi!
+  Reach out at wonkwon.lee94@gmail.com about AI infrastructure, change safety, evaluation work, or just to say hi!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

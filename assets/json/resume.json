@@ -1,15 +1,14 @@
 {
   "basics": {
-    "name": "Wonkwon Raymond Lee",
-    "position": "System Engineer",
+    "name": "Raymond (Wonkwon) Lee",
+    "position": "AI Infrastructure & Applied AI Engineer",
     "affiliation": "LG CNS America",
-    "email": "wonkwon.lee@nyu.edu",
-    "phone": "(646) 469-7805",
+    "email": "wonkwon.lee94@gmail.com",
+    "phone": "(551) 449-8346",
     "github": "wonkwonlee",
+    "summary": "Applied AI and infrastructure engineer who turns ambiguous operational requirements into reliable technical systems for regulated enterprises. Hands-on background in Python/API automation, infrastructure and security architecture, AI evaluation, and responsible AI research. Experienced leading technical discovery, presenting architectures and tradeoffs, coordinating customers and vendors through delivery, and building AI-assisted workflows for high-stakes environments.",
     "location": {
-      "address": "111 Sylvan Ave, South Building L4",
-      "postalCode": "07632",
-      "city": "Englewood Cliffs",
+      "city": "Fort Lee",
       "countryCode": "US",
       "region": "New Jersey"
     }
@@ -52,13 +51,24 @@
   "work": [
     {
       "name": "LG CNS America",
-      "position": "System Engineer",
+      "position": "Network Engineer",
       "location": "Englewood Cliffs, NJ",
       "startDate": "2024-04",
       "highlights": [
-        "Designed and implemented network infrastructure to enhance system performance and security, collaborating with cross-functional teams to troubleshoot and resolve complex networking issues.",
-        "Implemented automated network monitoring and reporting systems to ensure optimal uptime and reliability using Python, Netmiko, and PRTG API.",
-        "Created comprehensive network documentation, including diagrams, operational procedures, and troubleshooting guides, to facilitate knowledge sharing and system maintenance."
+        "Lead customer-facing technical workstreams for U.S. financial institutions, coordinating clients, vendors, and internal engineers from discovery and solution design through technical approval, implementation, acceptance, and operational handoff.",
+        "Translate ambiguous requirements into architectures, project plans, technical presentations, runbooks, acceptance criteria, and executive-ready validation reports for systems-integration and managed-service engagements.",
+        "Design and validate regulated banking integrations across data-center, disaster-recovery, and branch environments, including Fiserv/Zelle connectivity, VPNs, DMZ segmentation, firewall ACL/NAT, routing, MPLS/DIA, failover, and production changes.",
+        "Build Python/API automation with Netmiko, Flask, Cisco FMC REST API, and PRTG API for configuration backup, firewall analytics, monitoring evidence, audit-support reporting, and troubleshooting knowledge workflows."
+      ]
+    },
+    {
+      "name": "RND4Impact",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "2023-08",
+      "endDate": "2024-04",
+      "highlights": [
+        "Translated stakeholder needs into backend/data-processing prototypes, validation scripts, and reusable documentation workflows supporting research-to-product handoff and structured evidence review."
       ]
     },
     {
@@ -81,8 +91,8 @@
       "startDate": "2022-06",
       "endDate": "2022-08",
       "highlights": [
-        "Implemented and fine-tuned a BERT model to classify semantic relationships between entities using PyTorch.",
-        "Designed data annotation protocols and ML pipelines from data, training, to deployment; deployed the models to AWS for scalable production use."
+        "Developed a BERT-based NLP relation-extraction POC with PyTorch and AWS SageMaker, achieving 94% F1 on the target task.",
+        "Built preprocessing, training, evaluation, deployment, and monitoring workflows, including data annotation protocols for production use."
       ]
     },
     {
@@ -133,6 +143,24 @@
       ]
     }
   ],
+  "projects": [
+    {
+      "name": "ChangeSafe — AI Infrastructure Change Airlock",
+      "summary": "A v0.1 safety boundary that converts AI-generated infrastructure recommendations into typed declarative patches, validates them against strict schemas and permitted state paths, and applies them transactionally to a cloned infrastructure model.",
+      "startDate": "2026-01",
+      "highlights": [
+        "Built deterministic policy checks for management reachability, protected resources, blast radius, rollback completeness, and required verification.",
+        "Enforced fail-closed domain states, tested inverse rollback, and generated hash-bound decision receipts; production execution remains intentionally disabled in v0.1."
+      ]
+    },
+    {
+      "name": "SynRD",
+      "summary": "Open-source reproducibility framework for privacy-preserving synthetic-data research, translating research questions into reusable Python experiments, evaluation workflows, and documented limitations.",
+      "startDate": "2022-09",
+      "endDate": "2023-05",
+      "url": "https://github.com/DataResponsibly/SynRD"
+    }
+  ],
   "publications": [
     {
       "name": "Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy",
@@ -164,17 +192,20 @@
   ],
   "skills": [
     {
-      "name": "Programming Languages",
-      "keywords": ["Python", "Java", "C/C++", "SQL", "R", "JavaScript", "MATLAB"]
+      "name": "AI Infrastructure & Automation",
+      "keywords": ["Python", "REST APIs", "Flask", "Netmiko", "Cisco FMC API", "PRTG API", "Docker", "AWS", "AWS SageMaker"]
     },
     {
-      "name": "Frameworks & Tools",
-      "keywords": ["PyTorch", "TensorFlow", "scikit-learn", "Pandas", "Numpy", "SciPy", "OpenCV", "Django",
-        "Flask", "Node.js", "Git", "Docker", "AWS"]
+      "name": "Applied AI & ML",
+      "keywords": ["PyTorch", "LLM & prompt workflows", "AI evaluation", "NLP", "scikit-learn", "Pandas", "NumPy", "SQL"]
     },
     {
-      "name": "Tools and Methodologies",
-      "keywords": ["Jupyter Notebooks", "Git/GitHub", "Docker", "AWS", "IBM Cloud", "LaTeX"]
+      "name": "Network & Security Architecture",
+      "keywords": ["Routing", "VPN", "DMZ segmentation", "Firewall ACL/NAT", "MPLS/DIA", "Failover & DR", "Regulated banking integrations"]
+    },
+    {
+      "name": "Delivery & Practice",
+      "keywords": ["Technical discovery", "Solution scoping", "Client & vendor leadership", "Runbooks & acceptance criteria", "Responsible AI", "Reproducibility"]
     }
   ],
   "languages": [
