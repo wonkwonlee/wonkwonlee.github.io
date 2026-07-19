@@ -2,9 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of my projects.
+description: Selected engineering and research work.
 nav: true
-nav_order: 3
+nav_order: 2
+display_categories: [engineering, research]
 horizontal: false
 ---
 

@@ -2,10 +2,10 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: A brief showcases of my repositories
+description: Open-source repositories and GitHub activity.
 url: https://github.com/wonkwonlee/wonkwonlee.github.io
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 {% if site.data.repositories.github_users %}
