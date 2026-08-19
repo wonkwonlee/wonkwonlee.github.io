@@ -15,4 +15,5 @@ vendor
 .venv/
 .playwright-mcp/
 .omc
-.devcontainer
+
+
